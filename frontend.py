@@ -78,7 +78,7 @@ series, summary, skills, meta = load()
 
 h1, h2 = st.columns([4, 2])
 
-h1.title("Predictive Upskilling")
+h1.title("Predictiveuskilling")
 
 h2.markdown(
     f"<div style='text-align:right;padding-top:1.2rem' class='muted'>"
