@@ -29,3 +29,12 @@ The CSV and API sources must provide the required columns documented in `adapter
 No automated test files are currently included. Run `python -m pytest` to check for discovered tests after adding them.
 ## Data Visualisation
 A clean graph is used to visualise the demand and supply of different trades 
+
+## Machine Learning models 
+Task                                          Algorithm                 
+1.Baseline demand trend                       Linear Regression
+2.Demand forecast, one trade                  SARIMA / Prophet
+3.Demand forecast, many trades together       XBoost / LightGBM on lag features
+4.Bloom / stable / decline label              Random Forest or XGBoost classifier
+5.Supply projection                           Cohort model (graduates in -  retirements/attrition) + regression on enrolment trend
+6.Emerging skill discovery                    K-Means / BERTopic
