@@ -32,9 +32,9 @@ A clean graph is used to visualise the demand and supply of different trades
 
 ## Machine Learning models 
 Task                                          Algorithm                 
-1.Baseline demand trend                       Linear Regression
-2.Demand forecast, one trade                  SARIMA / Prophet
-3.Demand forecast, many trades together       XBoost / LightGBM on lag features
-4.Bloom / stable / decline label              Random Forest or XGBoost classifier
-5.Supply projection                           Cohort model (graduates in -  retirements/attrition) + regression on enrolment trend
-6.Emerging skill discovery                    K-Means / BERTopic
+- Baseline demand trend                       Linear Regression
+- Demand forecast, one trade                  SARIMA / Prophet
+- Demand forecast, many trades together       XBoost / LightGBM on lag features
+- Bloom / stable / decline label              Random Forest or XGBoost classifier
+- Supply projection                           Cohort model (graduates in -  retirements/attrition) + regression on enrolment trend
+- Emerging skill discovery                    K-Means / BERTopic
