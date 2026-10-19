@@ -27,3 +27,5 @@ The CSV and API sources must provide the required columns documented in `adapter
 ## Tests
 
 No automated test files are currently included. Run `python -m pytest` to check for discovered tests after adding them.
+## Data Visualisation
+A clean graph is used to visualise the demand and supply of different trades 
