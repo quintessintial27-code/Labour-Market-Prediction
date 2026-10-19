@@ -38,3 +38,8 @@ Task                                          Algorithm
 - Bloom / stable / decline label              Random Forest or XGBoost classifier
 - Supply projection                           Cohort model (graduates in -  retirements/attrition) + regression on enrolment trend
 - Emerging skill discovery                    K-Means / BERTopic
+
+## 📈 AI-Powered Skill Recommendations
+
+- Predictive Shortage Modeling: Utilizes ML models to forecast upcoming skill shortages and labor market gaps before they affect business     growth.
+- Strategic Investment Recommendations: Suggests precise areas where educational institutions, companies, and policymakers should direct      training and capital investments.
