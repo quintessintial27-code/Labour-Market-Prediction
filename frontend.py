@@ -42,7 +42,9 @@ st.markdown("""
 .st-key-district_row div[role="radiogroup"] {flex-wrap: nowrap !important; overflow-x: auto; overflow-y: hidden; gap: .6rem; padding: .2rem .2rem .8rem;}
 .st-key-district_row div[role="radiogroup"] > div {flex: 0 0 auto;}
 .st-key-district_row label[data-testid="stRadioOption"] {background: #fff; border: 1.5px solid #D5DBE5; border-radius: 14px;
-    padding: .65rem 1.1rem; cursor: pointer; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,.05); margin: 0;}
+    padding: .65rem 1.1rem; cursor: pointer; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,.05); margin: 0;
+    color: #1F2937 !important;}
+.st-key-district_row label[data-testid="stRadioOption"] * {color: #1F2937 !important;}
 .st-key-district_row label[data-testid="stRadioOption"] > div > div:first-child {display: none;}   /* hide the round radio dot */
 .st-key-district_row label[data-testid="stRadioOption"]:hover {border-color: #1F5FBF;}
 .st-key-district_row label[data-testid="stRadioOption"]:has(input:checked) {background: #1F5FBF; border-color: #1F5FBF;}
