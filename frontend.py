@@ -68,7 +68,7 @@ series, summary, skills, meta = load()
 
 # ------------------------------------------------------------------------------------------ header
 h1, h2 = st.columns([4, 2])
-h1.title("Predictiveupskilling")
+h1.title("PredictiveUpskilling")
 h2.markdown(f"<div style='text-align:right;padding-top:1.2rem' class='muted'>Data: <b>{meta.get('data_kind', '')}</b>"
             f"{' · updated ' + str(meta['last_updated']) if meta.get('last_updated') else ''}</div>", unsafe_allow_html=True)
 if "SYNTHETIC" in str(meta.get("data_kind", "")).upper():
